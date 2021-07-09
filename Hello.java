@@ -6,7 +6,7 @@ public class Hello
 
         Singleton s1 = Singleton.getSingletonInstance();
         Singleton s2 = Singleton.getSingletonInstance();
-
+        //Check both instance are same
         if(s1 == s2)
         {
 
